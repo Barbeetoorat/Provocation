@@ -1,4 +1,4 @@
-.back{
+.background{
 	background-color:#151618;
 	animation-name: opacity;
     -webkit-animation-name: opacity; 
@@ -45,95 +45,52 @@ a {
 
 }
    
-
-
-.prov{  
-    text-align: center; /* Выравнивание по центру  картинки*/ 
+.position__container{ 
+    margin-top: 11.5% ;
+   text-align: center; /* Выравнивание по центру  текст*/ 
   
-   } 
-
-.rasp{ 
-  	margin-top: 11.5% ;
- 	 text-align: center; /* Выравнивание по центру  текст*/ 
-	
 }
 
-.case {
-margin-top: 24pt;
-font: 26pt arial ;
-color:#adadad; 
-margin-bottom: 21pt;
-}
-
-  .contact{
-	 color:#e2e2e2; /* Цвет символа */
+.contact{
+   color:#e2e2e2; /* Цвет символа */
     margin-bottom: -7pt;
     font: 17pt arial ;
 
 
 }
 
-.bottom{
-			color:#e2e2e2; /* Цвет символа */
-			font: 12pt arial ;
-}
+.position_logo{  
+    text-align: center; /* Выравнивание по центру  картинки*/ 
+  
+   } 
 
-.bottom____mail{   
-					margin-bottom: -11pt;
-					
-					font-size: 13.7pt;
-				}
+/*.service {
+  display: box;
+  display: flex;
 
-
-.bottom____tel { 
-					
-					
-					font-size: 13.5pt;
-				}
-
-
-
-
-.services__info {
-    position:relative;
-    width:215px;
-    height: 13px;
-    padding:25px;
-    padding-top: 13px;
-    margin:10px;
-    color:#000000; /*цвет шрифта*/
-    font-size: 16pt;
-    
-    background:#fef100; /*yellow. #151618 - grey*/ 
-    overflow:hidden;
-}
- 
-.services__info:before {
-    content:"";
-    position:absolute;
-    top:0;
-       right:0;
-height: 0px; width: 0px;
-    border-width:0 0px 0px 30px; /* размер треугольника  */
-     border-top:25px solid ;
-     border-bottom: 25px solid;
-     
-
-
-
-    border-style:solid;
-    border-color:#151618 #151618 #151618 #fef100; /* Для работы с .rounded */
-    background:#658E15; /* Для Opera при применении border-radius */
-
-
-
-    display:block; width:0; /* Только для Firefox 3.0 для снятия ограничений */
-    /* Опционально: тени */
-    /*-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-       -moz-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-            box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-            */
-}
+  flex-direction:row;
+  justify-content: space-around;
+  -webkit-align-content: space-around;
+  }
+/* Decorations
+-------------------- */
+/*BODY {
+  padding: 12px;
+  background: red;
+  }
+.service {
+  padding: 10px;
+ *
+  border-radius: 10px;
+  }
+.service-item {
+  margin: 10px;
+  padding: 5px;
+  
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  }
+*/
 
 .service__part{
     animation-name: slideRight;
@@ -180,33 +137,7 @@ height: 0px; width: 0px;
     }
 }
 
-/*.service {
-  display: box;
-  display: flex;
 
-  flex-direction:row;
-  justify-content: space-around;
-  -webkit-align-content: space-around;
-  }
-/* Decorations
--------------------- */
-/*BODY {
-  padding: 12px;
-  background: red;
-  }
-.service {
-  padding: 10px;
- *
-  border-radius: 10px;
-  }
-.service-item {
-  margin: 10px;
-  padding: 5px;
-  
-  border-radius: 5px;
-  border: 1px solid #FFF;
-  }
-*/
 
 
 
@@ -223,76 +154,63 @@ ul .service__part {
    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.service_s_part {
-    height: 200px;
-    background: green;
-}
-
-.service__paыrt:after {
-    content: '';
-  
-    position: absolute;
-    left: 0;
-    top: 0;
+.services__info {
+    position:relative;
+    width:215px;
+    height: 13px;
+    padding:25px;
+    padding-top: 13px;
+    margin:10px;
+    color:#000000; /*цвет шрифта*/
+    font-size: 16pt;
     
-    border-top: 30px solid white;
-    border-right: 30px solid green;
+    background:#fef100; /*yellow. #151618 - grey*/ 
+    overflow:hidden;
+}
+ 
+.services__info:before {
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    height: 0px; width: 0px;
+    border-width:0 0px 0px 30px; /* размер треугольника  */
+    border-top:25px solid ;
+    border-bottom: 25px solid;
+    border-style:solid;
+    border-color:#151618 #151618 #151618 #fef100; /* Для работы с .rounded */
+    background:#658E15; /* Для Opera при применении border-radius */
+    display:block; width:0; /* Только для Firefox 3.0 для снятия ограничений */
+    /* Опционально: тени */
+    /*-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+       -moz-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            */
 }
 
-.ugl:before {
-    content: '';
-  
-    position: absolute;
-    right: 0;
-    top: 170px;
-    
-    border-bottom: 30px solid white;
-    border-left: 30px solid green;
+.button {
+margin-top: 24pt;
+font: 26pt arial ;
+color:#adadad; 
+margin-bottom: 21pt;
 }
 
+ 
+
+.bottom{
+			color:#e2e2e2; /* Цвет символа */
+			font: 12pt arial ;
+}
+
+.footer__contact____mail{   
+					margin-bottom: -11pt;
+					
+					font-size: 14pt;
+				}
 
 
-
-
+.footer__contact____tel { 
+					
+					
+					font-size: 13.5pt;
+				}
